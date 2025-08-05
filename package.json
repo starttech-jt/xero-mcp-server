@@ -19,7 +19,8 @@
     "prepare": "npm run build",
     "watch": "tsc --watch",
     "lint:fix": "eslint --fix",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.6.0",
